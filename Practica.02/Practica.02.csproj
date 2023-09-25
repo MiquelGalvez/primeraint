@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Practica._02</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="camara-de-video.png" />
+    <None Remove="capitan-del-equipo.png" />
+    <None Remove="charla.png" />
+    <None Remove="enviar.png" />
+    <None Remove="feliz.png" />
+    <None Remove="forma.png" />
+    <None Remove="istockphoto-1403848173-612x612.jpg" />
+    <None Remove="lupa.png" />
+    <None Remove="mas.png" />
+    <None Remove="newchat.png" />
+    <None Remove="perfil.png" />
+    <None Remove="tres-puntos.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="camara-de-video.png" />
+    <Resource Include="capitan-del-equipo.png" />
+    <Resource Include="charla.png" />
+    <Resource Include="enviar.png" />
+    <Resource Include="feliz.png" />
+    <Resource Include="forma.png" />
+    <Resource Include="istockphoto-1403848173-612x612.jpg" />
+    <Resource Include="lupa.png" />
+    <Resource Include="mas.png" />
+    <Resource Include="newchat.png" />
+    <Resource Include="perfil.png" />
+    <Resource Include="tres-puntos.png" />
+  </ItemGroup>
+
+</Project>

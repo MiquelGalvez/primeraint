@@ -1,0 +1,162 @@
+﻿<Window x:Class="Practica._02.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practica._02"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="498" Width="840">
+    <Grid Background="#FFEFDADA" Cursor="" HorizontalAlignment="Center" Width="840" >
+        <Grid Margin="0,0,578,0" Background="#FF849276">
+            <TextBox HorizontalAlignment="Center" Margin="0,39,0,0" TextWrapping="Wrap" Text="Contacte 1" VerticalAlignment="Top" Width="120" Background="{x:Null}" FontFamily="Arial Black" BorderBrush="{x:Null}"/>
+            <TextBox HorizontalAlignment="Center" Margin="0,55,0,0" TextWrapping="Wrap" Text="Vale" VerticalAlignment="Top" Width="120" Background="{x:Null}" FontFamily="Arial" FontSize="9" RenderTransformOrigin="0.5,0.5" BorderBrush="{x:Null}">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="20"/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox HorizontalAlignment="Center" Margin="0,90,0,0" TextWrapping="Wrap" Text="Contacte 1" VerticalAlignment="Top" Width="120" Background="{x:Null}" FontFamily="Arial Black" BorderBrush="{x:Null}"/>
+            <TextBox HorizontalAlignment="Center" Margin="0,106,0,0" TextWrapping="Wrap" Text="Vale" VerticalAlignment="Top" Width="120" Background="{x:Null}" FontFamily="Arial" FontSize="9" RenderTransformOrigin="0.5,0.5" BorderBrush="{x:Null}">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="20"/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox HorizontalAlignment="Left" Margin="156,41,0,0" TextWrapping="Wrap" Text="Viernes" VerticalAlignment="Top" Width="46" Background="{x:Null}" FontFamily="Arial" FontSize="9" RenderTransformOrigin="0.5,0.5" BorderBrush="{x:Null}" Height="14" TextChanged="TextBox_TextChanged">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="20"/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <TextBox HorizontalAlignment="Left" Margin="156,92,0,0" TextWrapping="Wrap" Text="Viernes" VerticalAlignment="Top" Width="46" Background="{x:Null}" FontFamily="Arial" FontSize="9" RenderTransformOrigin="0.5,0.5" BorderBrush="{x:Null}" Height="14" TextChanged="TextBox_TextChanged">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform X="20"/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+
+        </Grid>
+        <Grid Margin="0,0,562,0" Background="#FF849276">
+            <Label Content="AAMAMA" HorizontalAlignment="Left" Margin="59,42,0,0" VerticalAlignment="Top" FontFamily="Arial Black"/>
+            <Label Content="Cuando llegas?" HorizontalAlignment="Left" Margin="83,58,0,0" VerticalAlignment="Top" Height="27" FontSize="10"/>
+            <Label HorizontalAlignment="Left" Margin="207,46,0,0" VerticalAlignment="Top" FontSize="10"/>
+            <Label Content="Tu madre esta preocupada ..." Margin="78,110,57,0" VerticalAlignment="Top" Height="27" FontSize="10"/>
+            <Label Content="22:19" HorizontalAlignment="Left" Margin="207,94,0,0" VerticalAlignment="Top" FontSize="10"/>
+            <Label Content="AAPAPA" Margin="59,94,156,0" VerticalAlignment="Top" FontFamily="Arial Black"/>
+            <Label Content="Llegare un poco tarde" Margin="83,158,0,0" VerticalAlignment="Top" Height="27" FontSize="10" HorizontalAlignment="Left" Width="107"/>
+            <Label Content="Domingo" HorizontalAlignment="Left" Margin="189,142,0,0" VerticalAlignment="Top" FontSize="10"/>
+            <Label Content="DAM2" HorizontalAlignment="Left" Margin="59,142,0,0" VerticalAlignment="Top" FontFamily="Arial Black" RenderTransformOrigin="-0.093,0.514"/>
+            <Label Content="Abre la puerta porfa ..." HorizontalAlignment="Left" Margin="77,206,0,0" VerticalAlignment="Top" Height="27" FontSize="10"/>
+            <Label Content="Viernes" HorizontalAlignment="Left" Margin="198,190,0,0" VerticalAlignment="Top" FontSize="10"/>
+            <Label Content="Hermano" HorizontalAlignment="Left" Margin="61,190,0,0" VerticalAlignment="Top" FontFamily="Arial Black"/>
+            <Label Content="Yo no ..." HorizontalAlignment="Left" Margin="77,254,0,0" VerticalAlignment="Top" Height="27" FontSize="10"/>
+            <Label Content="Martes" HorizontalAlignment="Left" Margin="199,234,0,0" VerticalAlignment="Top" FontSize="10"/>
+            <Label Content="Futbol
+                   " HorizontalAlignment="Left" Margin="59,238,0,0" VerticalAlignment="Top" FontFamily="Arial Black"/>
+            <Label Content="Sacate el carnet ..." HorizontalAlignment="Left" Margin="77,302,0,0" VerticalAlignment="Top" Height="27" FontSize="10"/>
+            <Label Content="13/11/2000" HorizontalAlignment="Left" Margin="179,334,0,0" VerticalAlignment="Top" FontSize="10"/>
+            <Label Content="Autoescuela" HorizontalAlignment="Left" Margin="59,285,0,0" VerticalAlignment="Top" FontFamily="Arial Black"/>
+            <Label Content="Hoy no salgas de casa ya que ..." HorizontalAlignment="Left" Margin="77,350,0,0" VerticalAlignment="Top" Height="27" FontSize="10"/>
+            <Label Content="23/09/2000" HorizontalAlignment="Left" Margin="179,286,0,0" VerticalAlignment="Top" FontSize="10" Width="62"/>
+            <Label Content="Desconocido" HorizontalAlignment="Left" Margin="59,334,0,0" VerticalAlignment="Top" FontFamily="Arial Black"/>
+            <Label Content="Estas despedido por romper ..." HorizontalAlignment="Left" Margin="79,398,0,0" VerticalAlignment="Top" Height="27" FontSize="10"/>
+            <Label Content="Trabajo" HorizontalAlignment="Left" Margin="61,382,0,0" VerticalAlignment="Top" FontFamily="Arial Black"/>
+            <Label Content="AAMAMA" Margin="59,42,149,0" VerticalAlignment="Top" FontFamily="Arial Black"/>
+            <GridSplitter HorizontalAlignment="Center" Height="1" Margin="0,90,0,0" VerticalAlignment="Top" Width="278"/>
+            <GridSplitter HorizontalAlignment="Left" Height="1" Margin="-2,137,0,0" VerticalAlignment="Top" Width="278" Background="#FF636060"/>
+            <GridSplitter HorizontalAlignment="Left" Height="1" Margin="-2,185,0,0" VerticalAlignment="Top" Width="278" Background="#FF636060"/>
+            <GridSplitter HorizontalAlignment="Center" Height="1" Margin="0,90,0,0" VerticalAlignment="Top" Width="278"/>
+            <GridSplitter HorizontalAlignment="Left" Height="1" Margin="-2,279,0,0" VerticalAlignment="Top" Width="278" Background="#FF636060"/>
+            <GridSplitter HorizontalAlignment="Center" Height="1" Margin="0,90,0,0" VerticalAlignment="Top" Width="278" Background="#FF636060"/>
+            <GridSplitter HorizontalAlignment="Left" Height="1" Margin="-2,329,0,0" VerticalAlignment="Top" Width="278" Background="#FF636060"/>
+            <Label Content="Trabajo 2" HorizontalAlignment="Left" Margin="61,434,0,0" VerticalAlignment="Top" FontFamily="Arial Black"/>
+            <Label Content="10/05/1690" HorizontalAlignment="Left" Margin="178,434,0,0" VerticalAlignment="Top" FontSize="10" RenderTransformOrigin="0.509,0.088"/>
+
+        </Grid>
+        <Rectangle Height="31" VerticalAlignment="Top" Fill="#FF8C9A60"/>
+        <Label Content="10/05/1898" HorizontalAlignment="Left" Margin="178,383,0,0" VerticalAlignment="Top" FontSize="10"/>
+        <Label Content="AAMAMA" HorizontalAlignment="Left" Height="21" Margin="315,5,0,0" VerticalAlignment="Top" Width="94" FontFamily="Arial Black"/>
+        <GridSplitter HorizontalAlignment="Left" Height="488" Margin="276,0,0,0" VerticalAlignment="Center" Background="Black" Width="2"/>
+        <Rectangle Fill="#FFA2A2A2" Margin="278,0,0,0" Height="43" VerticalAlignment="Bottom"/>
+        <TextBox Margin="366,0,82,10" Background="#FF737373" BorderBrush="{x:Null}" FontFamily="Calibri" FontSize="16" TextWrapping="Wrap" TextAlignment="Justify" TextChanged="TextBox_TextChanged_3" Height="21" VerticalAlignment="Bottom"/>
+        <ScrollBar HorizontalAlignment="Left" Margin="259,31,0,0" Width="16" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <GridSplitter HorizontalAlignment="Left" Height="1" Margin="-2,232,0,0" VerticalAlignment="Top" Width="278" Background="#FF636060"/>
+        <GridSplitter HorizontalAlignment="Left" Height="1" Margin="-2,377,0,0" VerticalAlignment="Top" Width="278" Background="#FF636060"/>
+        <GridSplitter HorizontalAlignment="Left" Height="1" Margin="-2,428,0,0" VerticalAlignment="Top" Width="278" Background="#FF636060"/>
+        <Button HorizontalAlignment="Left" Height="20" Margin="787,0,0,11" VerticalAlignment="Bottom" Width="20" Foreground="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="/enviar.png"/>
+            </Button.Background>
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="21" Margin="256,6,0,0" VerticalAlignment="Top" Width="20" RenderTransformOrigin="-2.333,-0.141" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="/tres-puntos.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="22" Margin="222,6,0,0" VerticalAlignment="Top" Width="24" RenderTransformOrigin="-0.235,0.478" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="/newchat.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="21" Margin="190,6,0,0" VerticalAlignment="Top" Width="21" RenderTransformOrigin="-0.235,0.478" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="/charla.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="20" Margin="161,7,0,0" VerticalAlignment="Top" Width="20" RenderTransformOrigin="-0.235,0.478" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="/forma.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="21" Margin="127,5,0,0" VerticalAlignment="Top" Width="24" RenderTransformOrigin="-0.235,0.478" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="/capitan-del-equipo.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Right" Height="17" Margin="0,0,487,12" VerticalAlignment="Bottom" Width="17" RenderTransformOrigin="2.348,0.573" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="/mas.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Right" Height="25" Margin="0,0,522,8" VerticalAlignment="Bottom" Width="25" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="/feliz.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="25" Margin="784,3,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="1.96,0.174" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="/lupa.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="25" Margin="751,3,0,0" VerticalAlignment="Top" Width="25" RenderTransformOrigin="1.96,0.174" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="/camara-de-video.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" Height="21" Margin="0,5,10,0" VerticalAlignment="Top" RenderTransformOrigin="-2.333,-0.141" BorderBrush="{x:Null}" HorizontalAlignment="Right" Width="20">
+            <Button.Background>
+                <ImageBrush ImageSource="/tres-puntos.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="19:29" HorizontalAlignment="Left" Margin="207,42,0,0" VerticalAlignment="Top" FontSize="10"/>
+    </Grid>
+</Window>
