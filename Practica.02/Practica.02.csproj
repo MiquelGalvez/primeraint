@@ -11,30 +11,48 @@
   <ItemGroup>
     <None Remove="camara-de-video.png" />
     <None Remove="capitan-del-equipo.png" />
+    <None Remove="cara-feliz.png" />
     <None Remove="charla.png" />
+    <None Remove="coche.png" />
+    <None Remove="contratista.png" />
     <None Remove="enviar.png" />
     <None Remove="feliz.png" />
     <None Remove="forma.png" />
+    <None Remove="grupo-de-personas_dam.png" />
+    <None Remove="hombre.png" />
     <None Remove="istockphoto-1403848173-612x612.jpg" />
     <None Remove="lupa.png" />
     <None Remove="mas.png" />
     <None Remove="newchat.png" />
     <None Remove="perfil.png" />
+    <None Remove="perfil_aamama.png" />
+    <None Remove="perfil_desc.png" />
+    <None Remove="personas.png" />
+    <None Remove="trabajo-en-equipo.png" />
     <None Remove="tres-puntos.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="camara-de-video.png" />
     <Resource Include="capitan-del-equipo.png" />
+    <Resource Include="cara-feliz.png" />
     <Resource Include="charla.png" />
+    <Resource Include="coche.png" />
+    <Resource Include="contratista.png" />
     <Resource Include="enviar.png" />
     <Resource Include="feliz.png" />
     <Resource Include="forma.png" />
+    <Resource Include="grupo-de-personas_dam.png" />
+    <Resource Include="hombre.png" />
     <Resource Include="istockphoto-1403848173-612x612.jpg" />
     <Resource Include="lupa.png" />
     <Resource Include="mas.png" />
     <Resource Include="newchat.png" />
     <Resource Include="perfil.png" />
+    <Resource Include="perfil_aamama.png" />
+    <Resource Include="perfil_desc.png" />
+    <Resource Include="personas.png" />
+    <Resource Include="trabajo-en-equipo.png" />
     <Resource Include="tres-puntos.png" />
   </ItemGroup>
 

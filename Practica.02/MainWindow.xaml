@@ -72,7 +72,7 @@
             <Label Content="Sacate el carnet ..." HorizontalAlignment="Left" Margin="77,302,0,0" VerticalAlignment="Top" Height="27" FontSize="10"/>
             <Label Content="13/11/2000" HorizontalAlignment="Left" Margin="179,334,0,0" VerticalAlignment="Top" FontSize="10"/>
             <Label Content="Autoescuela" HorizontalAlignment="Left" Margin="59,285,0,0" VerticalAlignment="Top" FontFamily="Arial Black"/>
-            <Label Content="Hoy no salgas de casa ya que ..." HorizontalAlignment="Left" Margin="77,350,0,0" VerticalAlignment="Top" Height="27" FontSize="10"/>
+            <Label Content="Hola ..." HorizontalAlignment="Left" Margin="77,350,0,0" VerticalAlignment="Top" Height="27" FontSize="10"/>
             <Label Content="23/09/2000" HorizontalAlignment="Left" Margin="179,286,0,0" VerticalAlignment="Top" FontSize="10" Width="62"/>
             <Label Content="Desconocido" HorizontalAlignment="Left" Margin="59,334,0,0" VerticalAlignment="Top" FontFamily="Arial Black"/>
             <Label Content="Estas despedido por romper ..." HorizontalAlignment="Left" Margin="79,398,0,0" VerticalAlignment="Top" Height="27" FontSize="10"/>
@@ -158,5 +158,16 @@
             </Button.Background>
         </Button>
         <Label Content="19:29" HorizontalAlignment="Left" Margin="207,42,0,0" VerticalAlignment="Top" FontSize="10"/>
+        <Image HorizontalAlignment="Left" Height="36" Margin="18,98,0,0" VerticalAlignment="Top" Width="34" Source="/perfil.png"/>
+        <Image HorizontalAlignment="Left" Height="36" Margin="18,147,0,0" VerticalAlignment="Top" Width="34" Source="/grupo-de-personas_dam.png"/>
+        <Image HorizontalAlignment="Left" Height="36" Margin="18,193,0,0" VerticalAlignment="Top" Width="34" Source="/cara-feliz.png"/>
+        <Image HorizontalAlignment="Left" Height="36" Margin="18,240,0,0" VerticalAlignment="Top" Width="34" Source="/personas.png"/>
+        <Image HorizontalAlignment="Left" Height="36" Margin="18,288,0,0" VerticalAlignment="Top" Width="34" Source="/coche.png"/>
+        <Image HorizontalAlignment="Left" Height="36" Margin="18,338,0,0" VerticalAlignment="Top" Width="34" Source="/perfil_desc.png"/>
+        <Image HorizontalAlignment="Left" Height="36" Margin="18,387,0,0" VerticalAlignment="Top" Width="34" Source="/contratista.png"/>
+        <Image HorizontalAlignment="Left" Height="36" Margin="18,437,0,0" VerticalAlignment="Top" Width="34" Source="/trabajo-en-equipo.png"/>
+        <Image HorizontalAlignment="Left" Height="33" Margin="20,49,0,0" VerticalAlignment="Top" Width="34" Source="/perfil_aamama.png"/>
+        <Image HorizontalAlignment="Left" Height="24" Margin="286,4,0,0" VerticalAlignment="Top" Width="27" Source="/perfil_aamama.png"/>
+        <Image Height="26" Margin="0,2,804,0" VerticalAlignment="Top" Source="/hombre.png" HorizontalAlignment="Right" Width="26"/>
     </Grid>
 </Window>
